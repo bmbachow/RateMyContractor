@@ -1,0 +1,17 @@
+body {
+    background-image: url(../resources/background1.jpg);
+}
+
+@media only screen and (max-width: 600px) {
+    #card2 {
+        flex: none;
+        width: 100%;
+    }
+    #card {
+        flex: none;
+        width: 98%;
+    }
+    #describe {
+        width: 21rem;
+    }
+}

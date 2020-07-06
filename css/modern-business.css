@@ -1,0 +1,113 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+h2{
+  /* color: rgb(107, 161, 255); */
+  font-size: 3.5rem;
+  padding: (2em, 2em, 2em, 2em);
+}
+.navbar-brand .img {
+  height: 5rem;
+  width: auto;
+}
+.img-fluid {
+  margin-top: 7em;
+}
+#title {
+  margin-top: 1.25em;
+}
+#foot {
+  text-align: center;
+}
+.row {
+  width: 100%;
+  height: auto;
+}
+#overide {
+  width: 1922px;
+  height: 7rem;
+  margin-left: -26rem;
+}
+
+
+/* below is the services image */
+#panorama {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+h1.text {
+  position: absolute;
+  bottom: 10.5rem;
+  left: 24rem;
+  font-size: 4rem;
+
+  }
+#pan {
+  width:100%;
+  height: 400px;
+  }
+
+.col-sm-3 li {
+  font-size: 1.35rem;
+  color: black;
+  }
+.col-sm-3 li :hover {
+  color: crimson;
+}
+
+@media only screen and (max-width: 600px) {
+  #pan {
+    display: none;
+  }
+  #hidden {
+    margin-top: 8rem;
+  }
+  #col-sm-3 {
+    margin-top: 2rem;
+  }
+  p {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  #title {
+    width: 100%;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  #textleft {
+    text-align: left !important;
+  }
+  /* paypal pages */
+  #imgbutton {
+    width: 13rem;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #hidden {
+    display: none;
+  }
+}
